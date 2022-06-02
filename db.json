@@ -1,0 +1,34 @@
+{
+    "cars": [
+        {
+            "name": "McLaren 765LT",
+            "img": "https://www.superspeed.tv/assets/uploads/2020/03/McLaren-765LT_Track_06.jpg",
+            "id": "dfb8d966-c576-4f8b-85c4-8f94979da3d2"
+        },
+        {
+            "name": "McLaren P1",
+            "img": "https://i.pinimg.com/originals/41/77/60/417760e653da60140ef5f722b12caaf6.jpg",
+            "id": "1a801dcc-65a6-4a1e-9d5f-04703346c0f7"
+        },
+        {
+            "name": "Lamborghini Aventador SVJ",
+            "img": "https://static.automarket.ro/img/auto_resized/db/article/086/331/815892l-1000x640-b-5c840a68.jpg",
+            "id": "218d284a-b223-47fc-926e-1d618e8c3cd7"
+        },
+        {
+            "name": "Lamborghini Sian",
+            "img": "https://www.teahub.io/photos/full/156-1561657_lamborghini-sian.jpg",
+            "id": "c8b476c3-9daf-429f-a21e-6395f7136963"
+        },
+        {
+            "name": "Ferrari Roma",
+            "img": "https://cdn.wallpapersafari.com/99/26/YcDE1F.jpg",
+            "id": "d96d04be-ce9b-431e-9f53-b21799510dc4"
+        },
+        {
+            "name": "Ferrari 488 Pista",
+            "img": "https://wallpapercave.com/wp/wp4268608.jpg",
+            "id": "d5aa1451-aaac-491b-b56f-c2aa776e85f0"
+        }
+    ]
+}

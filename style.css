@@ -1,0 +1,279 @@
+.meniu{
+
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 3%;
+}
+
+.buton_json:hover
+{
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0 14px 32px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+#img:hover
+{
+    cursor: pointer;
+}
+
+.menu-item{
+
+    text-decoration: none;
+    background-image: url("https://wallpaperaccess.com/full/948567.png");
+    border-radius: 7px;
+    color: yellow;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 1%;
+    padding: 1% 2%;
+    font-family: 'Changa', cursive;
+}
+
+.menu-item-active{ color: white; }
+
+.menu-item:hover {
+
+    transition: all 0.2s ease-out;
+    background-image: url("https://wallpaperaccess.com/full/948567.png");
+    color: white;
+    box-shadow: 0 14px 32px 0 rgba(0, 0, 0, 0.3);
+    opacity: 1;
+}
+
+section{
+
+    margin-top: 4%;
+    border: 2px solid yellow;
+    background-image: url("https://wallpaperaccess.com/full/948567.png");
+    opacity: 0.8;
+    margin-bottom: 4%;
+    border-radius: 10px;
+}
+
+body{
+
+    background-image: url("https://wallpaperaccess.com/full/3143892.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center top;
+} 
+
+.separator{
+
+    border-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 8px;
+    border-radius: 5px;
+    background-image: url("https://thumbs.dreamstime.com/b/checkered-flag-race-background-racing-banner-seamless-chessboard-checker-vector-219761430.jpg");
+}
+
+.titlu{
+
+    font-family: 'Changa', cursive;
+    color: red;
+    margin-left: 3.15%;
+}
+
+.titlu1{
+
+    text-align: center;
+    font-family: 'Changa', cursive;
+    font-size: 15px;
+    color: red;
+    text-align: center;
+}
+
+.titlu2{
+
+    text-align: center;
+    font-family: 'Changa', cursive;
+    font-size: 15px;
+    color: red;
+}
+
+.text{
+
+    font-family: 'Changa', cursive;
+    color: yellow;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align:justify;
+    text-justify:inter-word;
+
+}
+
+.paragraf:hover{
+
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.continut1{
+
+    text-align: center;
+    color: yellow;
+    font-family: 'Changa', cursive;
+}
+
+.continut2{
+
+    margin-left: 10%;
+    margin-right: 10%;
+    color: yellow;
+    font-family: 'Changa', cursive;
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+.align{
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.grid{
+
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 2.5%;
+    margin-bottom: 3%;
+}
+
+.partea_stanga{
+
+    border-radius: 10px;
+    background-image: url("https://wallpaperaccess.com/full/948567.png");
+    justify-content: space-around;
+    opacity: 0.85;
+    border: 2px solid yellow;
+}
+
+.imagine
+{
+    height: 35vh;
+    margin-top: 10%;
+
+}
+
+.parte_mijloc
+{
+    text-align: center;
+}
+
+.partea_dreapta{
+
+    background-image: url("https://wallpaperaccess.com/full/948567.png");
+    border-radius: 10px;
+    justify-content: space-around;
+    opacity: 0.85;
+    border: 2px solid yellow;
+}
+
+.buton_json
+{
+    text-decoration: none;
+    background-image: url("https://wallpaperaccess.com/full/948567.png");
+    border-radius: 7px;
+    color: yellow;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Changa', cursive;
+}
+
+.centru
+{
+    text-align: center;
+}
+
+::placeholder
+{
+    color: yellow;
+    opacity: 75%;
+}
+
+.input
+{
+    background-color: black;
+    color: yellow;
+    border-radius: 7px;
+    height: 27px;
+}
+
+@media (min-width: 768px) and (max-width: 990px){
+    
+    .meniu{ width: 100%; }
+
+    .partea_dreapta{ width: 100%; }
+
+    .parte_mijloc{ width: 100%; }
+
+    .partea_stanga{ width: 100%; }
+
+    .titlu{ text-align: left; }
+}
+
+@media(max-width: 768px){
+
+    .text{ font-size: 12px; } 
+
+    .titlu{ text-align: center; }
+
+    .meniu{ width: 100%; }
+
+    .menu-item{ font-size: 10px; }
+
+    .partea_dreapta{ width: 100%; }
+
+    .partea_stanga{ width: 100%; }
+
+    .parte_mijloc{ width: 100%; }
+
+    .continut1{ font-size: 30%; }
+
+    .continut2{ font-size: 30%; }
+
+    .titlu1{ font-size: 70%; }
+
+    .titlu2{ font-size: 70%; }
+}
+
+@media (min-width: 990px){
+    
+    .text{
+
+        margin-left: 2%;
+        margin-right: 2%;
+    } 
+
+    .titlu{ text-align: left; }
+
+    .meniu{
+
+        width: 100%;
+        font-size: 8px;
+    }
+
+    .partea_dreapta{ width: 100%; }
+
+    .partea_stanga{ width: 100%; }
+
+    .parte_mijloc{ width: 100%; }
+
+    .imagine{ height: 60vh; margin-top: 15%;}
+}
+
+
+
+

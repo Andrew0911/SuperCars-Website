@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet">
+
+    
+        <link rel="stylesheet" href ="style.css">
+
+    <title> Masini </title>
+
+</head>
+
+<body>
+
+    <nav class = "meniu">
+        
+        <a class="menu-item" href="SuperCars.html"><b>HOME</b></a>
+        <a class="menu-item" href="Ferrari.html"><b>FERRARI</b></a>
+        <a class="menu-item" href="Lamborghini.html"> <b>LAMBORGHINI</b></a>
+        <a class="menu-item menu-item-active" href="Masini.html"><b> MASINI</b></a>  
+    </nav>
+
+    <hr class = "separator">
+
+    <br><br>
+
+
+    <div class = "centru">
+
+        <input id = "name" placeholder = "NUME" class = "input">
+        <input id = "url" placeholder = "LINK IMAGINE" class = "input">
+        <button id = "addcar" onclick = "addcar()" class = "buton_json"> Adauga masina </button>
+        <button id = "updatecar" onclick = "updatecar()" class = "buton_json"> Actualizeaza masina </button>
+
+    </div>
+		
+    <br> <br>
+
+	<script src = "script.js"></script>
+
+
+</body>
+
+
+</html>

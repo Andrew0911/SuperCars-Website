@@ -1,0 +1,23 @@
+.tabel_poze
+{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 97vw;
+    height: 100vh;
+    margin-left: 2px;
+    gap: 20px;
+}
+
+.poza
+{
+    border: solid yellow;
+    border-radius: 5px;
+    background-size: cover;
+}
+
+.poza:hover
+{
+    transition: 1s;
+    opacity: 80%;
+}
